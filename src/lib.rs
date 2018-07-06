@@ -21,6 +21,9 @@ extern crate dispatch;
 #[cfg(target_os = "macos")]
 extern crate objc_id;
 
+#[cfg(target_os = "windows")]
+extern crate winapi;
+
 mod color;
 mod context;
 mod event;
